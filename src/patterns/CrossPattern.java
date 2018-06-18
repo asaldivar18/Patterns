@@ -74,7 +74,7 @@ public class CrossPattern {
 	
 	/**
 	 * Main Entry Point of Java program
-	 * Simple tests of the two parameters
+	 * Simple test of the one parameter constructor
 	 * @param args command line arguments
 	 */
 	public static void main(final String[] args){
