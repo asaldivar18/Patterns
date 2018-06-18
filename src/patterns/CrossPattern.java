@@ -5,12 +5,6 @@
  * @version 1.0
  * Draws a Cross pattern. Has default constructor to start console program, 
  * or  1-param constructor that takes an integer for the size of the cross
- * example: size 5
- * 	*   *
- * 	 * * 
- *    *  
- *   * * 
- *  *   *
  */
 package patterns;
 
@@ -23,7 +17,6 @@ import java.util.Scanner;
 /**
  * 
  * CrossPattern
- * 
  */
 public class CrossPattern {
 	//Variables used in loops
@@ -38,9 +31,9 @@ public class CrossPattern {
 	}
 	
 	/**
-	 * CrossPatern
-	 * @param size integer that represents size of the cross
+	 * CrossPattern
 	 * 1 Parameter constructor that outputs the size
+	 * @param size integer that represents size of the cross
 	 */
 	CrossPattern(final int size){
 		draw(size);
